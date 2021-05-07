@@ -1,8 +1,14 @@
 var express = require('express');
 var app = express();
+var path = require("path");
+
+app.use(express.static(path.join(__dirname,"..","pages")));
+app.set("views", path.join(__dirname,"..","pages"));
+app.engine("html",require("ejs").renderFile);
+app.set("view engine", "html");
 
 app.get('/', function (req,res) {
-    res.send('hello world');
+    return res.render("game_page.html");
 });
 
 
