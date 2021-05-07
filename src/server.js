@@ -8,7 +8,7 @@ app.engine("html",require("ejs").renderFile);
 app.set("view engine", "html");
 
 app.get('/', function (req,res) {
-    return res.render("game_page.html");
+    return res.render("index.html");
 });
 
 
