@@ -53,13 +53,13 @@ html, body{
 }
 
 body{
-    background-color: var(--color-background);
+    background-color: var(--color-primary);
+
+    width: 100%;
+
     display: flex;
-    /*
-        As opçoes abaixo so funcionam ao definir display felx
-    */
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
 
 /*
