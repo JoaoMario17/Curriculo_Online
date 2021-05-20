@@ -1,0 +1,58 @@
+.container-fluid #navbarNav {
+    justify-content:flex-end;
+    margin-right: 24px;
+}
+
+.container-fluid #navbarNav .navbar-nav li{
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+
+.box-template_blue {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 400px;
+    height: 500px;
+
+    margin: 50px;
+
+    background-color: blue;
+
+    border-radius: 0.6rem;
+}
+
+.box-template_red {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 400px;
+    height: 500px;
+
+    margin: 50px;
+
+    background-color: red;
+
+    border-radius: 0.6rem;
+}
+
+.box-template_yellow {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 400px;
+    height: 500px;
+
+    margin: 50px;
+
+    background-color: yellow;
+
+    border-radius: 0.6rem;
+}
