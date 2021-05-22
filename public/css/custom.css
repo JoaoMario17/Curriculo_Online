@@ -1,3 +1,15 @@
+/*Landing*/
+#landing-present {
+    width: 100%;
+    height: 500px;
+
+}
+
+/*Header*/
+.navbar {
+    background: transparent;
+}
+
 .container-fluid #navbarNav {
     justify-content:flex-end;
     margin-right: 24px;
@@ -8,60 +20,50 @@
     margin-bottom: -5   px;
 }
 
-.nav_shadow {
-    box-shadow: 0px 2px 10px rgba(50, 50, 50, 0.77);
-}
-
 .container-fluid #navbarNav .navbar-nav li{
     margin-right: 25px;
     margin-left: 25px;
 }
 
-
-.box-template_blue {
-
+/*Prfile box*/
+#profile-box {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 
-    width: 400px;
-    height: 500px;
+    width: 300px;
+    height: 400px;
 
-    margin: 50px;
+    margin-top: 50px;
 
-    background-color: blue;
+    border-radius: 0.8rem;
+    border: 3px solid;
 
-    border-radius: 0.6rem;
+    box-shadow: 7px 7px 2px rgba(50, 50, 50, 0.77);
 }
 
-.box-template_red {
-
+#profile-picture {
     display: flex;
     align-items: center;
     justify-content: center;
 
-    width: 400px;
-    height: 500px;
+    margin-bottom: 15px;
 
-    margin: 50px;
+    width: 100px;
+    height: 100px;
 
-    background-color: red;
-
-    border-radius: 0.6rem;
+    border-radius: 50px;
 }
 
-.box-template_yellow {
+#profile-picture img {
+    width: 100px;
+    height: 100px;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    border-radius: 50px;
+    border: 3px solid;
+}
 
-    width: 400px;
-    height: 500px;
-
-    margin: 50px;
-
-    background-color: yellow;
-
-    border-radius: 0.6rem;
+.profile-text-container {
+    padding: 15px;
 }
