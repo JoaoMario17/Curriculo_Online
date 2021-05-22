@@ -3,6 +3,15 @@
     margin-right: 24px;
 }
 
+.container-fluid .navbar-brand img {
+    margin-top: 20px;
+    margin-bottom: -5   px;
+}
+
+.nav_shadow {
+    box-shadow: 0px 2px 10px rgba(50, 50, 50, 0.77);
+}
+
 .container-fluid #navbarNav .navbar-nav li{
     margin-right: 25px;
     margin-left: 25px;
