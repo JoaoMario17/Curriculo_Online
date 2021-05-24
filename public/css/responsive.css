@@ -1,0 +1,9 @@
+@media(max-width: 992px) {
+    #mobile {
+        display: flex;
+    }
+
+    #dskt {
+        display: none;
+    }
+}

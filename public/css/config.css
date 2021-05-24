@@ -8,3 +8,9 @@
     align-items: center;
     justify-content: center;
 }
+
+/*preenchimento auxiliar para teste*/ 
+.fill {
+
+    background-color: violet;
+}

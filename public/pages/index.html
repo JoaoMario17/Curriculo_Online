@@ -8,64 +8,338 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="../css/main.css"/>
 
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+
     <title>Hello, world!</title>
   </head>
   <body>
     
-    <!--LANDING PRESENTATION-->
-    <div id="landing-present">
-      <!--HEADER-->
-      <div id="header">
-        <div id="container">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="#">
-                      <img src="../assets/desenhando.svg" alt="testing_logo" class="img-fluid">
-                  </a>
-
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-
-                  <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                      <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Sobre</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Portifolio</a>
-                     </li>
-                    </ul>
-                  </div>
-                
-                </div>  
-              </nav>
-        </div>
-      </div>
-      <!--//HEADER-->
-
-      <!--MOBILE WIDGET-->
-      <div class="widget-container">
-        <div id="profile-box">
-            <div id="profile-picture">
-              <img src="../assets/Profile_picture.jpeg" alt="#">
-            </div>
-
-            <div class="profile-text-container">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia atque impedit quia earum explicabo aliquid, culpa rem nisi dignissimos sunt voluptas, iste aspernatur, provident doloribus beatae quam corporis obcaecati cum.</p>
-            </div>
-        </div>
-      </div>
-
-      
-
-    </div>
-    <!--//LANDING PRESENTATION-->
-
     
+    <!--HEADER-->
+    <div id="header">
+      <div id="container">
+          <nav class="navbar navbar-expand-lg navbar-light">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="../assets/desenhando.svg" alt="testing_logo" class="img-fluid">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="#sobre-mim">Sobre Mim</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#formacao">Formação</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                  </ul>
+                </div>
+                
+              </div>  
+            </nav>
+      </div>
+    </div>
+    <!--//HEADER-->
+      
+    <!--HOME-->
+    <div class="container">
+      <div class="row">
+        <div class="col">
+
+          <div class="home_widget ">
+            <div class="black_layer">
+              <div class="home_ct_ctner">
+                <div class="profile_hplacer">
+                
+                </div>
+
+                <h1>João Mário Fidelis</h1>
+                <h4 id="mobile">Estudante de</h4>
+                <h4 id="mobile">Engenharia de Software</h4>
+                <h4 id="dskt">Estudante de Engenharia de Software </h4>
+                <p>na Universidade Federal de Goiás</p>
+
+                <div class="icons_ctner">
+                  <a href="https://www.linkedin.com/in/jo%C3%A3o-m%C3%A1rio-fidelis-209a761b4/">
+                    <img src="../assets/icons/LinkedIn.svg" alt="linkedin">
+                  </a>
+                  <a href="https://github.com/JoaoMario17">
+                    <img src="../assets/icons/github.svg" alt="github">
+                  </a>
+                  <a href="https://www.instagram.com/joaomf17">
+                    <img src="../assets/icons/instagram.svg" alt="instagram">
+                  </a>
+                  
+                  
+                  
+                </div>
+              </div>
+            </div> 
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!--//HOME-->
+
+    <!--Sobre Mim-->
+    <div class="container" id="sobre-mim">
+      <div class="row">
+        <div class="col">
+          <div class="widget">
+            <div class="container">
+              <div class="row">
+                <div class="col-7 padding">
+                  <h1 class="Sb_title">Sobre Mim</h1>
+
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque eveniet ab, fugiat veritatis sapiente a necessitatibus vitae unde deserunt sequi voluptas debitis quisquam sit placeat, quo neque sed. Officiis, cum?</p>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque eveniet ab, fugiat veritatis sapiente a necessitatibus vitae unde deserunt sequi voluptas debitis quisquam sit placeat, quo neque sed. Officiis, cum?</p>
+                </div>
+                <div class="col-5 padding ">
+                  <h1 class="Sb_title">Bio</h1>
+
+                  <div class="bio_ctn">
+                    <div>
+                      <img src="../assets/icons/calendar.svg" alt="calendar">
+                      <p style="font-family: Roboto; font-weight: 600;">Idade</p>
+                    </div>
+                    
+                    <div>
+                      <p>19</p>
+                    </div>
+                  </div>
+                  <div class="bio_ctn">
+                    <div>
+                      <img src="../assets/icons/mail.svg" alt="email">
+                      <p style="font-family: Roboto; font-weight: 600;">Email</p>
+                    </div>
+
+                    <div>
+                      <p>joaomf17p2@gmail.com</p>
+                    </div> 
+                  </div>
+                  <div class="bio_ctn">
+                    <div>
+                      <img src="../assets/icons/phone_outline.svg" alt="telefone">
+                      <p style="font-family: Roboto; font-weight: 600;">Telefone</p>
+                    </div>
+
+                    <div>
+                      <p>(62) 99995-6489</p>
+                    </div>   
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--//Sobre Mim-->
+
+    <!--Habilidades Profissionais-->
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="widget">
+            <div class="container">
+              <div class="container">
+                <div class="row">
+                  <div class="col padding">
+                    <h1 class="Hb_title">Habilidades Profissionais</h1>
+                  </div>
+                </div>
+              </div>
+              <div class="container">
+                <div class="row">
+                  <div class="col-6 padding">
+                    <div class="hab_ctn">
+                      <p>Html</p>
+
+                      <div class="progress-bar-back">
+                        <div class="progress-bar_yellow" style="width: 200px;"></div>
+                      </div>
+                    </div>
+                    <div class="hab_ctn">
+                      <p>Css</p>
+
+                      <div class="progress-bar-back">
+                        <div class="progress-bar_yellow" style="width: 180px;"></div>
+                      </div>
+                    </div>
+                    <div class="hab_ctn">
+                      <p>Js</p>
+
+                      <div class="progress-bar-back">
+                        <div class="progress-bar_yellow" style="width: 160px;"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 padding">
+                    <div class="hab_ctn">
+                      <p>Node.js</p>
+
+                      <div class="progress-bar-back">
+                        <div class="progress-bar_red" style="width: 100px;"></div>
+                      </div>
+                    </div>
+                    <div class="hab_ctn">
+                      <p>Aws</p>
+
+                      <div class="progress-bar-back">
+                        <div class="progress-bar_red" style="width: 80px;"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--//Habilidades Profissionais-->
+
+    <!--Formação-->
+    <div class="container" id="formacao">
+      <div class="row">
+        <div class="col">
+          <div class="widget" style="height: 600px;">
+            <div class="container">
+              <div class="container">
+                <div class="row">
+
+                  <div class="col-6 padding" style="display: flex; flex-direction: column;">
+                    <h1 class="Fm_title">Formação</h1>
+                    <p>Cursando Engenharia de Software (Bacharelado) na Universidade Federal de Goiás (UFG) </p>
+                  </div>
+
+                  <div class="col-6" style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+
+                    <div class="row" style="width: 100%;">
+
+                      <div class="col-6">
+                        <div class="data_ctn" style="margin-left: -80px;">
+                          <p class="data" style="
+                            font-family: Roboto;
+                            font-weight: 600;
+                          ">Início</p>
+                          <p>2020</p>
+                        </div>
+                      </div>
+
+                      <div class="col-6">
+                        <div class="data_ctn" style="margin-right: -80px;">
+                          <p class="data" style="
+                            font-family: Roboto;
+                            font-weight: 600;
+                          ">Conclusão</p>
+                          <p>2024</p>
+                        </div>
+                      </div>
+                    </div>
+                  
+                    <div class="row">
+                      <div class="col">
+                        <div class="progress-bar-back">
+                          <div class="progress-bar_red" style="width: 70px;"></div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <div class="row">
+                  <div class="col-8 padding" style="padding-top: 0px; display: flex; flex-direction: column;">
+
+                    <div class="smt_ctn">
+                      <div class="smt_header">
+                        <img src="../assets/icons/dot_05_xl.svg" alt="">
+                        <p>1° semestre</p>
+                        <p style="
+                          font-family: Roboto;
+                          font-weight: 300;
+                          color: #85CB33;
+                          margin-left: 10px;
+                        ">concluído</p>
+                      </div>
+
+                      <div class="smt_content_ctn">
+                        <div class="smt_line"></div>
+
+                        <div class="smt_content">
+                          <p>Cálculo 1</p>
+                          <p>Introdução a Programação</p>
+                          <p>Fundamentos de Matemática para computação</p>
+                          <p>Computação e Sociedade</p>
+                        </div>
+                      </div>      
+                    </div>
+
+                    <div class="smt_ctn">
+                      <div class="smt_header">
+                        <img src="../assets/icons/dot_05_xl.svg" alt="">
+                        <p>2° semestre</p>
+                      </div>
+
+                      <div class="smt_content_ctn">
+                        <div class="smt_line" style="height: 150px;"></div>
+
+                        <div class="smt_content">
+                          <p>Algorítmos e Estruturas de Dados</p>
+                          <p>Arquitetura de Computadores </p>
+                          <p>Álgebra Linear</p>
+                          <p>Probabilidade e Estatística </p>
+                          <p>Lógica Matemática</p>
+                        </div>
+                      </div> 
+                    </div>
+
+                  </div>
+
+                  <div class="col-4 ufg-logo-ctn">
+                    <img src="../assets/ufg-logo.png" alt="ufg-logo">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--//Formação-->
+    
+    <!--Contato-->
+    <div class="container" id="contato">
+      <div class="row">
+        <div class="col">
+          <div class="widget">
+            <div class="container">
+              <div class="container">
+                <div class="row">
+                  <div class="col padding">
+                    <h1 class="Ct_title">Contato</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--//Contato-->
     
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
