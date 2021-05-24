@@ -7,6 +7,14 @@
         display: none;
     }
 
+    .padding {
+        padding: 0px;
+    }
+
+    .widget {
+        height: 650px;
+    }
+
     /*Header*/
     .container-fluid .navbar-brand {
         margin-left: -5px;
@@ -17,5 +25,11 @@
     }
 
     /*Sobre mim*/
+    .Sb_margins p {
+        margin-bottom: -2px;
+    }
 
+    .bio_set {
+        width: 170px;
+    }
 }
