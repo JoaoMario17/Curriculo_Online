@@ -16,7 +16,7 @@ app.use(bodyParser.json());
 
 //configurações do aws SES
 var email = "joaomariofidelis@gmail.com"
-aws.config.loadFromPath(__dirname + '/config.json');
+aws.config.loadFromPath(__dirname + '/../../config.json');
 var ses = new aws.SES();
 
 //Rotas
