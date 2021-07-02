@@ -11,8 +11,10 @@
     <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
-
-    <title>Hello, world!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <title>Currículo Pessoal</title>
   </head>
   <body>
     
@@ -395,7 +397,7 @@
     <div class="container" id="contato">
       <div class="row">
         <div class="col">
-          <div class="widget">
+          <div class="widget" style="height: 700px;">
 
             <!--Desktop-->
             <div class="container" id="dskt">
@@ -403,6 +405,26 @@
                 <div class="row">
                   <div class="col padding">
                     <h1 class="Ct_title">Contato</h1>
+
+                    <div id="form_container" class="container">
+                      <form id="form" action="/email" method="POST">
+                        <div class="form_section" id="form_name">
+                          <input type="text" id="nome" name="nome" placeholder="Nome"/>
+                        </div>
+
+                        <div class="form_section" id="form_email">
+                          <input type="email" id="email" name="email" placeholder="Email"/>
+                        </div>
+                        <div class="form_section" id="form_message">
+                          <textarea name="texto" placeholder="Mensagem"></textarea>
+                        </div>
+                        <div class="button">
+                          <button type="submit" id="btn">Enviar sua mensagem</button>
+                        </div>
+  
+                      </form>
+                    </div>
+          
                   </div>
                 </div>
               </div>
