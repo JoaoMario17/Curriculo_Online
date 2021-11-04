@@ -2,7 +2,7 @@
     height: 600px;
 }
 .dskt_widget_f{
-    height: 800px;
+    height: 900px;
 }
 
 @media(max-width: 992px) {
@@ -23,7 +23,7 @@
     }
 
     .mobile_widget_sb {
-        height: 520px;
+        height: 570px;
     }
 
     .mobile_widget_hb{
@@ -31,7 +31,7 @@
     }
 
     .mobile_widget_f{
-        height: 700px;
+        height: 850px;
     }
 
     /*Header*/
