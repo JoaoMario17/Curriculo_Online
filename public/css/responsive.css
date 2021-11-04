@@ -30,6 +30,10 @@
         height: 810px;
     }
 
+    .mobile_widget_f{
+        height: 700px;
+    }
+
     /*Header*/
     .container-fluid .navbar-brand {
         margin-left: -5px;
