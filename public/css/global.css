@@ -6,6 +6,15 @@
     --back_ground: #FBFBFB;
     --red: #BF211E;
     --green: #85CB33;
+
+    --html5: #e44d26;
+    --css3: #42a5f5;
+    --js: #fde635;
+    --c: #0277bd;
+    --njs: #8cc84b;
+    --java: #f44336;
+    --cpp: #0277bd;
+
 }
 
 body {

@@ -1,5 +1,3 @@
-var bodyParser = require('body-parser');
-var aws = require('aws-sdk')
 var express = require('express');
 var app = express();
 var path = require("path");
@@ -9,15 +7,6 @@ app.use(express.static(path.join(__dirname,"..","public")));
 app.set("views", path.join(__dirname,"..","public"));
 app.engine("html",require("ejs").renderFile);
 app.set("view engine", "html");
-
-//Configurações do body parser
-app.use(bodyParser.urlencoded({extended: false}));
-app.use(bodyParser.json());
-
-//configurações do aws SES
-var email = "joaomariofidelis@gmail.com"
-aws.config.loadFromPath(__dirname + '/../../config.json');
-var ses = new aws.SES();
 
 //Rotas
 app.get('/', function (req,res) {

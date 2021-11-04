@@ -1,3 +1,10 @@
+.dskt_widget_hb{
+    height: 600px;
+}
+.dskt_widget_f{
+    height: 800px;
+}
+
 @media(max-width: 992px) {
     #mobile {
         display: flex;
@@ -13,6 +20,14 @@
 
     .widget {
         height: 650px;
+    }
+
+    .mobile_widget_sb {
+        height: 520px;
+    }
+
+    .mobile_widget_hb{
+        height: 810px;
     }
 
     /*Header*/
